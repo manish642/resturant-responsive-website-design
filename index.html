@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Responsive Website Design - Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<nav>
+	<a href="#" class="logo">Logo<span>.</span></a>
+	<ul class="navigation">
+		<li><a href="#home" onclick=" toggleMenu()">Home</a></li>
+		<li><a href="#about" onclick=" toggleMenu()">About</a></li>
+		<li><a href="#menu" onclick=" toggleMenu()">Food Menu</a></li>
+		<li><a href="#gallery" onclick=" toggleMenu()">Gallery</a></li>
+		<li><a href="#blog" onclick=" toggleMenu()">Blog</a></li>
+		<li><a href="#contact" onclick=" toggleMenu()">Contact</a></li>
+	</ul>
+	<ul class="social-icon">
+		<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+		<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+		<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+		<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+	</ul>
+	<div class="toggleMenu" onclick="toggleMenu()"></div>
+</nav>
+<header class="container" id="home">
+	<div class="content" data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px;">
+		<h1>Healthy Food</h1>
+		<h3>Making People Happy</h3>
+		<div class="line"></div>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div class="btn_box">
+			<a href="#" class="btn">Book A Table</a>
+			<a href="#" class="btn white-btn">View Menu</a>
+		</div>
+	</div>
+</header>
+<section class="about bgcolor" id="about">
+	<div class="title_text">
+		<h1>About Restaurant</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+	<div class="row">
+		<div class="col50">
+			<div class="content">
+				<h3>About Restaurant</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p> Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				<div class="btn_box">
+					<a href="#" class="btn">Read More</a>
+				</div>
+			</div>
+		</div>
+		<div class="col50">
+			<div class="img_box">
+				<img src="images/about-bg.jpg" alt="about image">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="popular">
+	<div class="title_text">
+		<h1>Our Popular Dishes</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="img_box">
+				<img src="images/dish-1.jpg">
+			</div>
+			<div class="text">
+				<p>Healthy Breakfast</p>
+				<p class="price_tag">$50.00</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/dish-2.jpg">
+			</div>
+			<div class="text">
+				<p>Healthy Lunch</p>
+				<p class="price_tag">$50.00</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/dish-3.jpg">
+			</div>
+			<div class="text">
+				<p>Healthy Dinner</p>
+				<p class="price_tag">$50.00</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="menu bgcolor" id="menu">
+	<div class="title_text">
+		<h1>Our Food Menu</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+	<div class="row">
+		<div class="col50">
+			<div class="content">
+				<div class="img_box">
+					<img src="images/dish-10.jpg">
+				</div>
+				<div class="title">
+					<h3>Baked Crap Cheese</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+				<p class="price_tag">$15.00</p>
+			</div>
+		</div>
+		<div class="col50">
+			<div class="content">
+				<div class="img_box">
+					<img src="images/dish-10.jpg">
+				</div>
+				<div class="title">
+					<h3>Caprese Salad</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+				<p class="price_tag">$50.00</p>
+			</div>
+		</div>
+		<div class="col50">
+			<div class="content">
+				<div class="img_box">
+					<img src="images/dish-10.jpg">
+				</div>
+				<div class="title">
+					<h3>Crispy Squit</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+				<p class="price_tag">$25.00</p>
+			</div>
+		</div>
+		<div class="col50">
+			<div class="content">
+				<div class="img_box">
+					<img src="images/dish-10.jpg">
+				</div>
+				<div class="title">
+					<h3>Chicken Soup</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+				<p class="price_tag">$14.00</p>
+			</div>
+		</div>
+		<div class="col50">
+			<div class="content">
+				<div class="img_box">
+					<img src="images/dish-10.jpg">
+				</div>
+				<div class="title">
+					<h3>Reastad Chicken</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+				<p class="price_tag">$50.00</p>
+			</div>
+		</div>
+		<div class="col50">
+			<div class="content">
+				<div class="img_box">
+					<img src="images/dish-10.jpg">
+				</div>
+				<div class="title">
+					<h3>Foie Gras</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+				<p class="price_tag">$16.00</p>
+			</div>
+		</div>
+		<div class="col50">
+			<div class="content">
+				<div class="img_box">
+					<img src="images/dish-10.jpg">
+				</div>
+				<div class="title">
+					<h3>Napa Cabbage</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+				<p class="price_tag">$5.00</p>
+			</div>
+		</div>
+		<div class="col50">
+			<div class="content">
+				<div class="img_box">
+					<img src="images/dish-10.jpg">
+				</div>
+				<div class="title">
+					<h3>Strawborry Pam Cake</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+				<p class="price_tag">$17.00</p>
+			</div>
+		</div>
+		<div class="btn_box">
+			<a href="#" class="btn">View All Menu</a>
+		</div>
+	</div>
+</section>
+<section class="popular" id="gallery">
+	<div class="title_text">
+		<h1>Our Gallery</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="img_box">
+				<img src="images/dish-4.jpg">
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/dish-5.jpg">
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/dish-6.jpg">
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/dish-6.jpg">
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/dish-6.jpg">
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/dish-6.jpg">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="client bgcolor">
+	<div class="title_text">
+		<h1>Our Client Feedback</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="img_box">
+				<img src="images/client-2.jpg">
+			</div>
+			<div class="content">
+				<h3>Someone Special</h3>
+				<div class="stars">
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/client-1.jpg">
+			</div>
+			<div class="content">
+				<h3>Someone Special</h3>
+				<div class="stars">
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star"></i>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/client-3.jpg">
+			</div>
+			<div class="content">
+				<h3>Someone Special</h3>
+				<div class="stars">
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star active"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="blog" id="blog">
+	<div class="title_text">
+		<h1>Restaurant News From Blog</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="img_box">
+				<img src="images/client-1.jpg">
+				<div class="overlay">
+					<h3>Someone Name</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/client-2.jpg">
+				<div class="overlay">
+					<h3>Someone Name</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="img_box">
+				<img src="images/client-3.jpg">
+				<div class="overlay">
+					<h3>Someone Name</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="contact" id="contact">
+	<div class="title_text white">
+		<h1>Book A Table</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+	<form>
+		<input type="text" class="input-data" placeholder="Full Name">
+		<input type="text" class="input-data" placeholder="Email Address">
+		<input type="text" class="input-data" placeholder="Mobile Number">
+		<textarea class="input-data" placeholder="Message"></textarea>
+		<input type="submit" value="Book Now" class="submit">
+	</form>
+</section><br>
+<section class="footer">
+	<p>&copy;Copyright | All Right Reserves</p>
+</section>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
